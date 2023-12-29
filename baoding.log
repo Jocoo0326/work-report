@@ -1,0 +1,103 @@
+一.app-baoding-production-release-V6.9.6-C100-202103110956.apk
+
+代码:svn://192.168.2.196/znjandroid/trunk/StudioSpace/ZaiNanJing2_Online_Pay_NewFM_ZhongShan_6.9.2
+提交:81271
+
+1.修复保定华为推送,适配Android10推送
+2.升级ijkplay播放器版本
+3.修改客户电话为0312-5903937
+4.短信登录添加勾选注册协议
+
+
+二.app-baoding-production-release-V7.2.0-C104-202209290048.arm64-v8a.fixed.apk
+1.新增便民功能(首页，分类，便民(小便民)，发布，我的)
+2.注意事项:加固后签名需要 先使用 zipalign 对齐未签名的 APK
+
+三.app-baoding-production-release-V7.2.0-C104-202210211610.arm64-v8a.fixed.apk
+1.升级 x5 webview sdk 处理隐私权限
+
+四.app-baoding-production-release-V7.2.2-C105-202210272215.arm64-v8a.fixed.apk
+1.关于我们证照信息,协议规则，证照信息html js替换城市名
+2.便民商家详情拆分为3个tab(服务列表，详情，评分列表)
+3.新增便民微信，支付宝在线支付(线下支付)
+4.便民订单优化(列表，详情，评论)
+5.二级分类跳转小程序
+代码路径:svn://192.168.2.196/gdmm_android/mm_old_repo/GDMM-FM/tags/baoding_v7.2.2
+
+
+五.app-baoding-production-release-V7.2.4-C106-202211282139.arm64-v8a.fixed.apk
+1.新增教育，宠物(发布，列表，详情)
+2.新增商家详情（含下单tab）
+3.app-baoding-production-release-V7.2.4-C106-202212141636.arm64-v8a.fixed.apk(升级jpush sdk,上架小米市场)
+
+
+六.app-baoding-production-release-V7.2.6-C107-202212291605.arm64-v8a.fixed.apk
+```
+1.新增订阅号(订阅号大厅，订阅号主页，订阅号分类，我的订阅，文章详情)
+2.修复广电联盟音频视频相关bug
+3.对应便民的分支版本1.3.0
+```
+
+七.app-baoding-production-release-V7.3.2-C110-202303271944.arm64-v8a.fixed.apk
+```
+1.ogc发帖(文字和图片)
+2.ogc创作人入驻，ogc创作人主页，文章列表，ogc文章详情
+3.web页新增 微信与支付宝支付
+```
+
+八.保定7.3.6版本/2023年04月14日(可能还早几天，Android没有发7.3.4版本)
+```
+1.保定首页--本地生活和商城改版(去了广电联盟)
+```
+
+九.保定7.3.8版本/2023年04月25日
+```
+1.广告新增另一种小程序跳转
+2.便民可以对应7.3.6版本--没有任何修改
+```
+
+
+十.
+### 保定7.4.0版本/2023年05月08日
+```
+1.订阅号视频发布，合集创建，订阅号首页，主页，搜索等新增视频与合集列表
+2.视频详情类似抖音上下滑，预加载
+3.保定 新增跳转凡科互动h5跳转(需先请求接口)
+4.广电云放开点击头像跳转
+```
+
+ 十.
+### 保定7.4.0版本/2023年05月08日
+``` 
+1.app-baoding-production-release-V7.4.2-C115-202306061722.arm64-v8a.fixed.apk
+2.svn://192.168.2.196/gdmm_android/mm_old_repo/GDMM-FM/tags/baoding_v7.4.0
+3.修复so动态注入,innerHTML xss漏洞,3.二次打包风险
+```
+
+### 便民-保定7.4.2版本/2023年06月06日
+```
+1.为应对安全审查 InnerHtml 过滤script及javascript等字符
+2.对应的代码提交93695
+3.实名认证弹框提示收集用户信息目的用途
+4.发送验证码之前先勾选协议
+```
+
+### 便民-保定7.4.4版本/2023年06月28日
+```
+1.小便民服务详情挪动到提交订单页
+```
+
+### 便民-保定7.4.6版本/2023年07月28日
+```
+1.广电云新增调起微信支付
+2.商品详情客服新增外链
+3.关于我们等客服电话修改
+4.app-baoding-production-release-V7.4.6-C117-202308021916.arm64-v8a.fixed.apk(商品详情客服外链已经拼接了商品id,只是版本号未修改)
+```
+
+### 便民-保定7.4.8版本/2023年08月2日
+```
+1.商品详情客服新增外链后面拼接商品id
+2. app-baoding-production-release-V7.4.8-C118-202308081259.arm64-v8a.fixed.apk(便民首页，便民页,增加便民广告跳转)
+
+```
